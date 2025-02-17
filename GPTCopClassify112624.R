@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyr)
 library(psych)
 # Set the working directory to the folder containing the Excel sheets
-setwd("C:/Users/esteb/Desktop/FinalCorpAdds")
+setwd("")
 ### Classify Text Function.
 classify_texts3 <- function(texts, api_key) {
   url <- "https://api.openai.com/v1/chat/completions"
